@@ -4,14 +4,12 @@ public class User {
     private String username;
     private String email;
 
-    // Constructor
     public User(String id, String username, String email) {
         this.id = id;
         this.username = username;
         this.email = email;
     }
 
-    // Getters
     public String getId() {
         return id;
     }
@@ -24,7 +22,6 @@ public class User {
         return email;
     }
 
-    // Setters
     public void setId(String id) {
         this.id = id;
     }
