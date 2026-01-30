@@ -11,7 +11,7 @@ import java.util.Optional;
 public class HotelService {
   private final HotelRepository hotelRepository;
 
-  public HotelSerivce(HotelRepository hotelRepository) {
+  public HotelService(HotelRepository hotelRepository) {
     this.hotelRepository = hotelRepository;
   }
   
